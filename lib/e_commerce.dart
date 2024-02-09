@@ -15,18 +15,18 @@ class _e_commerceState extends State<e_commerce> {
       return Scaffold(
         appBar: AppBar
         (
-        title: Text ('Jóias raras para mulheres especiais', style: GoogleFonts.italiana(fontWeight: FontWeight.bold))
+        title: Text ('Delight yourself with our sweetes treasures', style: GoogleFonts.italiana(fontWeight: FontWeight.bold))
         ),
         
         body: Column(
           children: [
             Container(
-              color: Color.fromARGB(255, 232, 225, 243),
+              color: Color.fromARGB(255, 249, 177, 199),
               width: double.infinity,
               height: 400,
                child: Center(
                 child: Text(
-                'Uma boutique de jóias que oferece uma seleção cuidadosamente curada de peças elegantes, desde clássicos atemporais até as últimas tendências da moda, a loja proporciona uma experiência de compra excepcional, com uma equipe dedicada pronta para orientar os clientes em sua jornada pela beleza de metais preciosos. oferecendo aos clientes a oportunidade de eternizar momentos preciosos.',
+                'A candy store that offers the best kinds of candys, chocolate, etc. You will delight yourself with our most accurate spices',
               
                 textAlign: TextAlign.center,
                 ),
@@ -39,10 +39,10 @@ class _e_commerceState extends State<e_commerce> {
                margin: const EdgeInsets.all(8),
                   padding: const EdgeInsets.all(8),
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 233, 222, 235),
+                    color: Color.fromARGB(255, 255, 145, 178),
                     borderRadius: BorderRadius.circular(50)),
                child: 
-               Text('Consulte uma vendedora', style: GoogleFonts.varela(),
+               Text('Make your budget now', style: GoogleFonts.varela(),
                )
             )
           ],

@@ -110,7 +110,7 @@ class HomePage extends StatelessWidget {
           elevation:4,
           child: Column(
           children: [
-              //Image.asset('assets/joiass.png', width:150, height:150),
+              Image.asset('chocolate.png', width:150, height:150),
               Text('Delight yourself with our sweetest treasures',
               style: GoogleFonts.italiana(fontSize: 16, fontWeight: FontWeight.bold)),
             ],
@@ -132,7 +132,7 @@ class HomePage extends StatelessWidget {
           elevation:4,
           child: Column(
           children: [
-             // Image.asset('assets/aneis.png', width:150, height:150),
+             Image.asset('candy.png', width:150, height:150),
               Text('Learn more about out spices',
               style: GoogleFonts.italiana(fontSize: 16, fontWeight: FontWeight.bold)),
             ],
@@ -153,8 +153,8 @@ class HomePage extends StatelessWidget {
           elevation:4,
           child: Column(
           children: [
-             // Image.asset('assets/anel.png', width:150, height:150),
-              Text('Em Breve Novidades',
+             Image.asset('specialchocolate.png', width:150, height:150),
+              Text('News Soon',
               style: GoogleFonts.italiana(fontSize: 16, fontWeight: FontWeight.bold)),
             ],
           ),
